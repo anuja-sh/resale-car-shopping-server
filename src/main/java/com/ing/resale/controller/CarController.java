@@ -23,7 +23,7 @@ public class CarController {
 
 	/**
 	 * 
-	 * @param order   
+	 * @param order    {@value asc || desc}
 	 * @param property property of the Car.
 	 * @return {@link List<Car>}
 	 */

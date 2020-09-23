@@ -30,7 +30,6 @@ public class WareHouseController {
 	
 	@GetMapping("/wareHouse/{carId}")
 	@CrossOrigin(origins = "*")
-	@ResponseBody
 	public Map<String, Object> getWareHouseDetais(@PathVariable int carId) {
 		return wareHouseService.getWareHouseDetails(carId);
 	}
