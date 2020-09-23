@@ -12,8 +12,8 @@
 	<groupId>com.ing</groupId>
 	<artifactId>resale</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>resale</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Car-Resale</name>
+	<description>Car Resale  Web Application</description>
 
 	<properties>
 		<java.version>11</java.version>
