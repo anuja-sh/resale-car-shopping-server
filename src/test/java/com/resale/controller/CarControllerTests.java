@@ -6,7 +6,6 @@ import static org.mockito.Mockito.when;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 
-import org.junit.Test;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;
@@ -29,7 +28,7 @@ import com.ing.resale.service.ICarService;
 @RunWith(MockitoJUnitRunner.class)
 @WebAppConfiguration
 @WebMvcTest(controllers = CarController.class)
-public class CarControllerTests {
+class CarControllerTests {
 
 	@MockBean
 	ICarService carService;
@@ -45,8 +44,8 @@ public class CarControllerTests {
 		mockMvc = MockMvcBuilders.webAppContextSetup(webApplicationContext).build();
 	}
 
-	@Test
-	public void testGetListOfCars() throws UnsupportedEncodingException, Exception {
+	@org.junit.jupiter.api.Test
+	void getListOfCarsTests() throws UnsupportedEncodingException, Exception {
 
 		carService = Mockito.spy(ICarService.class);
 		ArrayList<Car> cars = new ArrayList<Car>();
@@ -55,6 +54,7 @@ public class CarControllerTests {
 		RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/cars").queryParam("order", "asc")
 				.queryParam("property", "date_added");
 
+		System.out.println(mockMvc.perform(requestBuilder));
 		MockHttpServletResponse response = mockMvc.perform(requestBuilder).andReturn().getResponse();
 		assertEquals(200, response.getStatus());
 	}
