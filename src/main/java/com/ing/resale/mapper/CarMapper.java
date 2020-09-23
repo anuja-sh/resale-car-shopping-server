@@ -1,4 +1,4 @@
-package com.resale.mapper;
+package com.ing.resale.mapper;
 
 import org.mapstruct.Mapper;
 

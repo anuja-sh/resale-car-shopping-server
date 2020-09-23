@@ -1,11 +1,11 @@
-package com.resale.service;
+package com.ing.resale.service;
 
 import java.util.List;
 
 import org.json.simple.parser.ParseException;
 import org.springframework.http.ResponseEntity;
 
-import com.resale.model.Car;
+import com.ing.resale.model.Car;
 
 public interface ICarService {
 

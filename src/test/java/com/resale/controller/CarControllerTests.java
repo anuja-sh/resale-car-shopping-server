@@ -22,8 +22,9 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-import com.resale.model.Car;
-import com.resale.service.ICarService;
+import com.ing.resale.controller.CarController;
+import com.ing.resale.model.Car;
+import com.ing.resale.service.ICarService;
 
 @RunWith(MockitoJUnitRunner.class)
 @WebAppConfiguration

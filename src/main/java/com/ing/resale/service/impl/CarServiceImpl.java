@@ -1,4 +1,4 @@
-package com.resale.service.impl;
+package com.ing.resale.service.impl;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -17,12 +17,12 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.resale.model.Car;
-import com.resale.model.Location;
-import com.resale.model.WareHouse;
-import com.resale.repository.ICarRepo;
-import com.resale.repository.IWareHouseRepo;
-import com.resale.service.ICarService;
+import com.ing.resale.model.Car;
+import com.ing.resale.model.Location;
+import com.ing.resale.model.WareHouse;
+import com.ing.resale.repository.ICarRepo;
+import com.ing.resale.repository.IWareHouseRepo;
+import com.ing.resale.service.ICarService;
 
 @Service
 public class CarServiceImpl implements ICarService {

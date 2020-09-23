@@ -1,4 +1,4 @@
-package com.resale.controller;
+package com.ing.resale.controller;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.resale.model.Car;
-import com.resale.service.ICarService;
+import com.ing.resale.model.Car;
+import com.ing.resale.service.ICarService;
 
 @RestController
 public class CarController {
@@ -23,7 +23,7 @@ public class CarController {
 
 	/**
 	 * 
-	 * @param order    {@value asc || desc}
+	 * @param order   
 	 * @param property property of the Car.
 	 * @return {@link List<Car>}
 	 */

@@ -1,4 +1,4 @@
-package com.resale.controller;
+package com.ing.resale.controller;
 
 
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.resale.model.WareHouse;
-import com.resale.service.IWareHouseService;
+import com.ing.resale.model.WareHouse;
+import com.ing.resale.service.IWareHouseService;
 
 
 @RestController

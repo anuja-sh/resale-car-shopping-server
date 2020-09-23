@@ -1,4 +1,4 @@
-package com.resale.service.impl;
+package com.ing.resale.service.impl;
 
 import java.util.HashMap;
 import java.util.List;
@@ -7,9 +7,9 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.resale.model.WareHouse;
-import com.resale.repository.IWareHouseRepo;
-import com.resale.service.IWareHouseService;
+import com.ing.resale.model.WareHouse;
+import com.ing.resale.repository.IWareHouseRepo;
+import com.ing.resale.service.IWareHouseService;
 
 @Service
 public class WareHouseService implements IWareHouseService {

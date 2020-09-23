@@ -1,4 +1,4 @@
-package com.resale;
+package com.ing.resale;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

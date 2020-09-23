@@ -1,4 +1,4 @@
-package com.resale.model;
+package com.ing.resale.model;
 
 import java.util.List;
 
